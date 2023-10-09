@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;  
+  
+}
+
+/* .navbar-nav>li>.dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 130px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: black;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu {
+  box-shadow: none;
+  border-color: #eee;
+}
+
+.open>.dropdown-menu {
+    display: block;
+} */
+
+.heroimage {
+  /* URL :https://wallpaperaccess.com/4k-vacation*/
+
+  background-image: url(../imgs/travel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;  
+}
+.aboutimage {
+
+  background-image: url(../imgs/bnner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;  
+}
+h1 {
+  color:black;
+  text-align: center;
+  padding: 100px 200px 20px 250px;
+  font-size: 2.9em;
+  font-family: "Rampart One", cursive;
+}
+#home {
+  text-align: center;  
+  background-color: #E0E0E0 ; 
+
+  color: #000;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+}
+.faq h2{
+  text-align: center;
+  font-family: "Rampart One", cursive;
+ 
+  padding-top: 30px;  
+}
+p{
+  font-size:1.1em;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+#about { margin-top: 20px;
+  margin-bottom: 30px;
+  color: #000000;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding: 23px;
+  background-color: #E0E0E0 ;
+  font-family: "Rampart One", cursive;
+}
+#wrapper { 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E0E0E0 ;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 200px;
+ }
+
+.title {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-weight: 900;
+  font-size: 1.6em;
+   font-family: "Rampart One", cursive;
+}
+
+.border {
+  width: 150px;
+  height: 5px;
+  background-color:gray;
+  margin-bottom: 8px;
+  border-radius: 50px;
+}
+#articles {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-wrap: wrap;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-color: #E0E0E0 ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+article {
+  flex: 0 0 calc(25% - 30px);
+  margin: 40px;
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.85);
+  background-color: white;
+}
+.image img {
+  transition: transform .2s;
+  width: 100%;
+  display: inline-block;
+}
+.image {
+  overflow: hidden;
+}
+.image img:hover{
+  transform:scale(2.5);
+}
+.content {
+  padding: 0 25px;
+}
+.content h3 {
+  padding: 15px 0;
+  font-family: "Rampart One", cursive;
+  font-size: 1.4em;
+}
+.content p {
+  opacity: 0.8;
+  padding: 10px 0 25px 0;
+}
+.book button {
+  background-color:  #9c9c9c;
+  padding: 8px 10px;
+  width: 130px;
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.book {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+  font-weight: 600;
+}
+
+
+
+.stop{
+     padding-top: 10px;
+     font-size: 1.2em;
+     padding-left: 40px;
+}
+#copyright {text-align:center;font-style: italic;font-family: serif;}
+ 
+
+.mySlides {display: none}
+.mySlides img {vertical-align: middle;
+  width: 100%;
+  height: 90%;
+  }
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:white;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: fuchsia;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.accordion {
+  background-color: #eee;
+  color:#000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  margin-left: 170px;
+  margin-right: 170px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+ .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 18px;
+  width: 80%;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  margin-left: 170px;
+  margin-right: 170px;
+  font-size: 15px;
+}

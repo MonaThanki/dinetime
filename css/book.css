@@ -1,0 +1,154 @@
+.header2 {
+  color: rgb(66, 66, 43);
+  font-weight: bold;
+  font-size: 125%;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+label {
+float: left;
+  width: 200px;
+  margin-left: 20%;
+}
+input, select {
+  margin-left: 20%;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
+input {
+  width: 14em;	
+  margin-left: 20%;
+}
+input.left {
+width: 1em;
+padding-left: 0;
+margin-left: 20%;
+}
+p {
+margin-top: 0;
+margin-bottom: .5em;
+}
+input.last {
+margin-bottom: 1em;
+}
+#adults, #children {
+width: 35px;
+}
+#smoking {
+width: 2em;
+margin-left: 20%;
+}
+#submit {
+margin-left: 40%;
+margin-top: 10px;
+width: 10em;
+position: relative;
+}
+span {
+color: red;
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.input {
+  font-size: 16px;
+  font-size: Max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  transition: 180ms box-shadow ease-in-out;
+}
+
+.input:focus {
+  border-color: hsl(
+    var(--input-focus-h),
+    var(--input-focus-s),
+    var(--input-focus-l)
+  );
+  box-shadow: 0 0 0 3px
+    hsla(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      calc(var(--input-focus-l) + 40%),
+      0.8
+    );
+  outline: 3px solid transparent;
+}
+
+#reservation_form{
+    background: #2C2E3E;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 700px;
+    height: 1575px;
+    align-content: center;
+}
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px 20px;
+    box-shadow: 0 0 50px;
+    transition: 0.3s color;
+    color: gray;
+}
+
+#reservation_form label{
+  float: left;
+  width: 1000px;
+}
+
+#reservation_form.input.select{
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
