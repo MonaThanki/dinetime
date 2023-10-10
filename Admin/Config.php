@@ -1,5 +1,5 @@
 <?php
-    $lk=mysqli_connect("127.0.0.1:3000","root","");
+    $lk=mysqli_connect("localhost","root","");
     if($lk)
     {
         // echo "Connected Successful....";
