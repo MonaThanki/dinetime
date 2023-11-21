@@ -1,0 +1,148 @@
+.bg-image-vertical {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto;
+
+}
+
+.fas {
+    line-height:2.2
+}
+
+.form1 {
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+body {
+    overflow: hidden;
+    background-image: linear-gradient(rgb(2, 2, 21), #2C2E3E);
+}
+
+.heading {
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.input {
+    width: auto;
+}
+
+.edit {
+    width: auto;
+    height: auto;
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+    /* border: 1px solid black;  */
+    border-radius: 7px;
+    box-shadow: 3px 2px lightgrey;
+    background-color: white;
+}
+
+.btn-cancle {
+    background-color: lightslategrey;
+    color: #fff;
+}
+
+.edit1 {
+    width: auto;
+    height: auto;
+    margin-top: 7em;
+
+
+
+}
+
+.form1 {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.form {
+    margin-left: 3.3em;
+    padding-bottom: 5px;
+    /* background-image: linear-gradient(whitesmoke,grey); */
+
+}
+
+
+.span {
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    z-index: 2;
+    margin: 5px 10px;
+    /* border-right: 2px solid; */
+    font-size: 20px;
+}
+
+.btn-block {
+    margin-top: 30px;
+}
+.input [type=text],
+[type=email],
+[type=password],
+[type=text] {
+    width: 100%;
+    /*margin: 2em 0;*/
+    border: none;
+
+    border-bottom: 1px solid black;
+    box-shadow: 1px 2em #fff;
+    padding: 10px 40px;
+    /* font-size: 15px; */
+    position: relative;
+    z-index: 1;
+    
+
+
+}
+
+::placeholder {
+    font-weight: 200;
+    font-size: small;
+}
+
+
+
+.button:hover {
+    background-position: 650%;
+    transition: background 500ms linear;
+    cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin: -1px 0px 0px !important;
+}
+
+.chk {
+    vertical-align: middle;
+}
+
+.ram {
+    padding-top: 20px !important;
+}
+
+
+
+.span {
+
+    width: 35px;
+    height: 35px;
+
+    position: absolute;
+    z-index: 2;
+    padding: auto;
+    /* border-right: 2px solid; */
+    font-size: 20px;
+
+}

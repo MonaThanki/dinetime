@@ -34,65 +34,95 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>150</h3>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+              <!-- small box -->
+              <div class="small-box bg-info">
+                <div class="inner">
+                 <h4>Total Orders</h4>
+                  <?php
+                    
+                    $sql="SELECT OID FROM ORDR ORDER BY OID";
+                    $result=mysqli_query($lk,$sql);
+                    $cnt = mysqli_num_rows($result);
+                    echo '<h2>'.$cnt.'<h2>';
 
-                <p>New Orders</p>
+                  ?>
+                </div>
+                <div class="icon">
+                  <i class="fa fa-shopping-cart"></i>
+                </div>
+                <a href="./order.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
-          </div>
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+              <!-- small box -->
+              <div class="small-box bg-success">
+                <div class="inner">
+                <h4>Total Parcel</h4>
+                  <?php
 
-                <p>Bounce Rate</p>
+                    include('Config.php');
+                    $sql="SELECT PID FROM PARCEL ORDER BY PID";
+                    $result=mysqli_query($lk,$sql);
+                    $cnt = mysqli_num_rows($result);
+                    echo '<h2>'.$cnt.'<h2>';
+
+                  ?>
+                  
+                </div>
+                <div class="icon">
+                  <i class="ion ion-bag"></i>
+                </div>
+                <a href="./parcel.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
+            </div>  
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+              <!-- small box -->
+              <div class="small-box bg-warning">
+                <div class="inner">
+                <h4>Total Food Item</h4>
+                  <?php
 
-                <p>User Registrations</p>
+                    include('Config.php');
+                    $sql="SELECT MID FROM MENU ORDER BY MID";
+                    $result=mysqli_query($lk,$sql);
+                    $cnt = mysqli_num_rows($result);
+                    echo '<h2>'.$cnt.'<h2>';
+
+                  ?>
+                </div>
+                <div class="icon">      
+                <i class="fas fa-utensils"></i>
+                </div>
+                <a href="./menu.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+
             </div>
-          </div>
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>65</h3>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+              <!-- small box -->
+              <div class="small-box bg-danger">
+                <div class="inner">
+                <h4>Total Staff</h4>
+                  <?php
 
-                <p>Unique Visitors</p>
+                    include('Config.php');
+                    $sql="SELECT SID FROM staff ORDER BY SID";
+                    $result=mysqli_query($lk,$sql);
+                    $cnt2 = mysqli_num_rows($result);
+                   
+                    echo '<h2>'.$cnt2.'<h2>';
+
+                  ?>
+                </div>
+                <div class="icon">
+                  <i class="ion ion-person-add"></i>
+                </div>
+                <a href="./staff.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
-          </div>
           <!-- ./col -->
         </div>
 
@@ -103,48 +133,7 @@
 
           <!-- /.Left col -->
           <!-- right col (We are only adding the ID to make the widgets sortable)-->
-          <section class="col-lg-5 connectedSortable">
-
-            <!-- Calendar -->
-            <div class="card bg-gradient-success">
-              <div class="card-header border-0">
-
-                <h3 class="card-title">
-                  <i class="far fa-calendar-alt"></i>
-                  Calendar
-                </h3>
-                <!-- tools card -->
-                <div class="card-tools">
-                  <!-- button with a dropdown -->
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52">
-                      <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="dropdown-menu" role="menu">
-                      <a href="#" class="dropdown-item">Add new event</a>
-                      <a href="#" class="dropdown-item">Clear events</a>
-                      <div class="dropdown-divider"></div>
-                      <a href="#" class="dropdown-item">View calendar</a>
-                    </div>
-                  </div>
-                  <button type="button" class="btn btn-success btn-sm" data-card-widget="collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-success btn-sm" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-                <!-- /. tools -->
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body pt-0">
-                <!--The calendar -->
-                <div id="calendar" style="width: 100%"></div>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </section>
+          
           <!-- right col -->
         </div>
         <!-- /.row (main row) -->
@@ -153,6 +142,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+  
   <footer class="main-footer">
     <strong>Copyright &copy; 2023 <a href="index.php">Dine In The Restaurant management system</a>.</strong>
     All rights reserved.
