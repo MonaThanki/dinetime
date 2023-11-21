@@ -401,6 +401,7 @@ include('editwaiter.php');
 
     </div>
     <!-- ./wrapper -->
+<<<<<<< HEAD
  <!-- /.content-wrapper -->
  <footer class="main-footer">
     <strong>Copyright &copy; 2023 <a href="index.php">Dine In The Restaurant management system</a>.</strong>
@@ -409,6 +410,9 @@ include('editwaiter.php');
       <b>Version</b> 1.0.0
     </div>
   </footer>
+=======
+
+>>>>>>> 33f117aa3e6129f4ee2c0d30987a370565f8a2af
     <!-- Page specific script -->
     <script>
         $(function() {

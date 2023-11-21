@@ -77,7 +77,10 @@
                                     </ul>
                                   </li>
                                 <li><a href="aboutus.php">About Us</a></li>
+<<<<<<< HEAD
                                 <li><a href="contact.php">Contact Us</a></li>
+=======
+>>>>>>> 33f117aa3e6129f4ee2c0d30987a370565f8a2af
                                 <li><a href="tableBooking.php">Table Booking</a></li>
                                 <div class="login">
                                 <a href="login.php" class="login-link">

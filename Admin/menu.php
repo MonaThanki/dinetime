@@ -11,6 +11,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<<<<<<< HEAD
  <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
@@ -34,6 +35,24 @@
 				}
 			}
 
+=======
+  <script language="javascript">
+			
+			function Chk()
+			{
+				var p=confirm('ARE YOU SURE TO DELETE THIS RECORD?');
+				
+				if(p)
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
+			}
+
+>>>>>>> 33f117aa3e6129f4ee2c0d30987a370565f8a2af
     </script>
   
   <script>
@@ -409,6 +428,7 @@
   <!-- /.content-wrapper -->
   
   <script>
+<<<<<<< HEAD
   $(document).ready(function() {
     // Initialize DataTable
     $('#example1').DataTable({
@@ -427,5 +447,15 @@
       <b>Version</b> 1.0.0
     </div>
   </footer>
+=======
+    $(document).ready( function () {
+        $('#example1').DataTable({
+            paging: true, // Enable pagination
+            pageLength: 10 // Show 10 rows per page
+        });
+    });
+</script>
+
+>>>>>>> 33f117aa3e6129f4ee2c0d30987a370565f8a2af
 </body>
 </html>
