@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> DineTime-Aboutus</title>
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
         <link rel="stylesheet" href="css/project1.css " type="text/css">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -75,10 +76,7 @@
                                     </ul>
                                   </li>
                                 <li><a href="aboutus.php">About Us</a></li>
-<<<<<<< HEAD
                                 <li><a href="contact.php">Contact Us</a></li>
-=======
->>>>>>> 33f117aa3e6129f4ee2c0d30987a370565f8a2af
                                 <li><a href="tablebooking.php">Table Booking</a></li>
                                 <div class="login">
                                 <a href="login.php" class="login-link">

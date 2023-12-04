@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> DineTime</title>
+  <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
   <link rel="stylesheet" href="css/project1.css " type="text/css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
