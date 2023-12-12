@@ -1,0 +1,76 @@
+/* Checkout form styling */
+
+.container{
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: #050505; 
+  }
+  
+  .checkout_color  .form-group {
+    margin-bottom: 15px; 
+  }
+  
+  .checkout_color label {
+    font-size: 16px;
+    color: #000000; 
+  }
+  
+  /* placeholder{
+    font-weight:4px ;
+    color: black;
+
+  } */
+  .checkout_color .form-control {
+    width: 70%; 
+    padding: 8px; 
+    font-size: 14px; 
+    border-radius: 3px; 
+    color: #000000;
+  }
+  
+  .checkout_color .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .checkout_color  .form-control {
+    width: 100%; 
+    padding: 8px; 
+    font-size: 20px; 
+    border: 0.5px solid rgb(188, 196, 120); 
+    border-radius: 3px; 
+    color: #000000;
+  }
+  
+  .checkout_color h4 {
+    margin-top: 20px; 
+    font-family: "Quicksand", sans-serif;
+    color: #000000; 
+  }
+
+ 
+  
+  .button_color {
+    background-color: #facc22;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .button_color:hover {
+    background-color: black;
+    color: #facc22;
+  }
+  
+  ::placeholder{
+    color: #000;
+  }

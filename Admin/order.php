@@ -33,7 +33,6 @@
 
     <!-- Main content -->
     <section class="content">
-<<<<<<< HEAD
     <div class="container-fluid">
           <div class="row">
             <div class="col-12">
@@ -219,7 +218,6 @@
           </div>
           <!-- /.row -->
         </div>
-=======
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -402,7 +400,6 @@
         </div>
         <!-- /.row -->
       </div>
->>>>>>> 33f117aa3e6129f4ee2c0d30987a370565f8a2af
     </section>
     <!-- /.content -->
   </div>
